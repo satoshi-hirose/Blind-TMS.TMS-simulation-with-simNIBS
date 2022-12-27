@@ -9,25 +9,12 @@ For detail of the experiment, please see the Supplementary Material of Ikegami e
 
 To replicate the analysis, 
 (Tested Environment OS: MacOS, MATLAB: r2018b)
-1, Prepare the dataset in "Rawdata" directory and codes in "Script" directory as follows.
+1, Prepare the dataset in "Rawdata" directory and codes in "Script" directory as seen in Readme.txt.
 
 Note: If you have .nii or .nii.gz rawdata files, or will use T2w images,
       modify the corresponding line (around Line 13) in headreco_script.sh.
 
-   (experimental directory) --- Script  --- headreco_script.sh
-                             |           |- mother_script.m
-                             |           |- group_analysis.m
-                             |           |- extract_simNIBS_results.m
-                             |           |- get_TMS_pos.m
-                             |
-                             |- Rawdata ---(subject1 ID) --- T1.hdr
-                                        |                 |- T1.img
-                                         |
-                                         |-(subject2 ID) --- T1.hdr
-                                         |                |- T1.img
-                                         |
-                                         |-(subject3 ID) --- T1.hdr
-                                                          |- T1.img
+
                                                   .
                                                   .
                                                   .
