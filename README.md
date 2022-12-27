@@ -1,2 +1,2 @@
-# Blind-TMS_simulation_w_simNIBS
-Code for Ikegami et al., 2023
+# Blind-TMS-simulation-w-simNIBS
+Code for Supplementary Materials of Ikegami et al., 2023
