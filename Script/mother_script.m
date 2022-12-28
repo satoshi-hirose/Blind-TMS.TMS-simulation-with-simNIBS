@@ -2,6 +2,7 @@
 % Make sure that simNIBS/matlab is in MATLAB path list
 % see Readme.txt for detailed instruction.
 
+addpath ~/Applications/SimNIBS-3.2/matlab/
 
 %% parameters 
 
@@ -17,8 +18,7 @@ stim_max = 62.8*10^6;
 tms_pos_from_Inion = 25; 
 
 % Participants' ID ([Number of participants] x 1)
-% subnames = {'1';'2';'4';'6';'7';'8';'10';'11';'16';'18';'19';'21';'22';'23';'24'};
-subnames = {'2';'6';'7';'11';'19';'21';'23';'24'}; % for test
+subnames = {'1';'2';'4';'6';'7';'8';'10';'11';'16';'18';'19';'21';'22';'23';'24'};
 
 % Angles of the stimulator (degree)
 % 0 = handle direction towards Cz. increase with anticlockwise rotation)

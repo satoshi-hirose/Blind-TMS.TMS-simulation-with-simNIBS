@@ -49,5 +49,5 @@ for sub=1:length(subnames)
 end
 
 save ../Results/GroupResults group_RESULTS
-writetable(table(subnames,group_RESULTS.peak_region,mean(group_RESULTS.above_t_prop_ROI,2),'VariableNames',{'SubjectName', 'PeakLocation', 'PropOfStimulatedRegionInV1V2'})...
-    ,'../Results/Table.txt')
+writetable(table(subnames,group_RESULTS.peak_region,round(mean(group_RESULTS.above_t_prop_ROI,2)*100,1),'VariableNames',{'SubjectName', 'PeakLocation', 'PropOfStimulatedRegionInV1V2'})...
+    ,'../Results/Table.csv')
