@@ -8,7 +8,7 @@ For detail of the experiment, please see the Supplementary Material of Ikegami e
 
 Notes: 
 - The main results reported in the paper can be replicated with https://github.com/ikegami244/Blind-TMS. 
-- The MRI anatomical images (T1-w image) are not publicly available due to ethical restrictions but are available from the corresponding author of the study on reasonable request.
+- The MRI anatomical images (T1-w image) used in the study are not publicly available due to ethical restrictions but are available from the corresponding author of the study on reasonable request.
  
 
 
