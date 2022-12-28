@@ -2,6 +2,8 @@
 These codes perform TMS simulation analysis 
 reported in Supplementary Material in Ikegami et al., 2023.
 
+The main results reported in the paper can be replicated with https://github.com/ikegami244/Blind-TMS. 
+
 We simulated the two trials for TMS stimulation to 2.5cm above the Inion (putative V1/V2).
 This set of codes can replicate our simulation.
 For detail of the experiment, please see the Supplementary Material of Ikegami et al., 2023.
