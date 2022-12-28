@@ -1,4 +1,4 @@
-# Blind-TMS-simulation-w-simNIBS
+# Blind-TMS. Simulation with simNIBS
 These codes perform TMS simulation analysis 
 reported in Supplementary Material in Ikegami et al., 2023.
 
